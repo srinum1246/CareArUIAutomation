@@ -1,0 +1,1758 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Mar 3, 2023 08:18:34 AM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">loginValidation</p>
+            <p class="text-sm">
+              <span>8:18:34 AM</span> / <span>00:02:41:090</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">loginValidation</h5>
+<span class='badge badge-success'>03.03.2023 8:18:34 AM</span>
+<span class='badge badge-danger'>03.03.2023 8:21:15 AM</span>
+<span class='badge badge-default'>00:02:41:090</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:18:45 AM</td>
+        <td>
+          Navigated to the url - https://carear-hyperspace.web.app/#/user/login
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:18:48 AM</td>
+        <td>
+          Failed to enter the text 'null' in loginuserid textbox
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_18_48_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_18_48_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:18:56 AM</td>
+        <td>
+          Clicked on the element - loginnext
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:19:39 AM</td>
+        <td>
+          Selecting the "English" locale.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:20:00 AM</td>
+        <td>
+          localeDropDownElement is not present 
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_20_00_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_20_00_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:20:21 AM</td>
+        <td>
+          Failed to click on the element - localeDropDown
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_20_21_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_20_21_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:20:43 AM</td>
+        <td>
+          localeElement is not present 
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_20_42_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_20_42_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:21:04 AM</td>
+        <td>
+          Failed to click on the element - locale
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_21_04_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_21_04_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:21:12 AM</td>
+        <td>
+          Clicked on the element - saveLocale
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:21:15 AM</td>
+        <td>
+          Locale "English" got selected successfully.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">seleLast7DaysPrintdataAnalyticsUsage</p>
+            <p class="text-sm">
+              <span>8:21:15 AM</span> / <span>00:03:48:702</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">seleLast7DaysPrintdataAnalyticsUsage</h5>
+<span class='badge badge-success'>03.03.2023 8:21:15 AM</span>
+<span class='badge badge-danger'>03.03.2023 8:25:04 AM</span>
+<span class='badge badge-default'>00:03:48:702</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:21:23 AM</td>
+        <td>
+          Clicked on the element - analyticsMenu
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:21:32 AM</td>
+        <td>
+          Clicked on the element - analyticsTab
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:21:54 AM</td>
+        <td>
+          analyticsLastSevenDaysElement is not present 
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_21_53_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_21_53_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:22:15 AM</td>
+        <td>
+          Failed to click on the element - analyticsLastSevenDays
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_22_15_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_22_15_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:22:36 AM</td>
+        <td>
+          analyticsTotalActiveUsersvalElement is not present 
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_22_36_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_22_36_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:22:57 AM</td>
+        <td>
+          Failed to extract the text for the element - analyticsTotalActiveUsersval
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_22_57_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_22_57_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:23:18 AM</td>
+        <td>
+          analyticsTotalMinutesUsedValElement is not present 
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_23_18_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_23_18_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:23:39 AM</td>
+        <td>
+          Failed to extract the text for the element - analyticsTotalMinutesUsedVal
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_23_39_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_23_39_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:24:00 AM</td>
+        <td>
+          analyticsTotalActiveUsersTextElement is not present 
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_24_00_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_24_00_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:24:21 AM</td>
+        <td>
+          Failed to extract the text for the element - analyticsTotalActiveUsersText
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_24_21_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_24_21_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:24:21 AM</td>
+        <td>
+           is : 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:24:43 AM</td>
+        <td>
+          analyticsTotalMinutesUsedTextElement is not present 
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_24_42_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_24_42_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:25:04 AM</td>
+        <td>
+          Failed to extract the text for the element - analyticsTotalMinutesUsedText
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_25_04_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_25_04_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:25:04 AM</td>
+        <td>
+           is : 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:25:04 AM</td>
+        <td>
+          seleLast7DaysPrintdataAnalyticsUsage -  Test Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">seleLast30DaysPrintdataAnalyticsUsage</p>
+            <p class="text-sm">
+              <span>8:25:04 AM</span> / <span>00:03:48:762</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">seleLast30DaysPrintdataAnalyticsUsage</h5>
+<span class='badge badge-success'>03.03.2023 8:25:04 AM</span>
+<span class='badge badge-danger'>03.03.2023 8:28:52 AM</span>
+<span class='badge badge-default'>00:03:48:762</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:25:12 AM</td>
+        <td>
+          Clicked on the element - analyticsMenu
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:25:21 AM</td>
+        <td>
+          Clicked on the element - analyticsTab
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:25:42 AM</td>
+        <td>
+          analyticsLast30DaysElement is not present 
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_25_42_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_25_42_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:26:03 AM</td>
+        <td>
+          Failed to click on the element - analyticsLast30Days
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_26_03_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_26_03_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:26:25 AM</td>
+        <td>
+          analyticsTotalActiveUsersvalElement is not present 
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_26_24_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_26_24_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:26:46 AM</td>
+        <td>
+          Failed to extract the text for the element - analyticsTotalActiveUsersval
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_26_46_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_26_46_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:27:07 AM</td>
+        <td>
+          analyticsTotalMinutesUsedValElement is not present 
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_27_07_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_27_07_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:27:28 AM</td>
+        <td>
+          Failed to extract the text for the element - analyticsTotalMinutesUsedVal
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_27_28_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_27_28_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:27:49 AM</td>
+        <td>
+          analyticsTotalActiveUsersTextElement is not present 
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_27_49_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_27_49_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:28:10 AM</td>
+        <td>
+          Failed to extract the text for the element - analyticsTotalActiveUsersText
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_28_10_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_28_10_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:28:10 AM</td>
+        <td>
+           is : 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:28:31 AM</td>
+        <td>
+          analyticsTotalMinutesUsedTextElement is not present 
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_28_31_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_28_31_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:28:52 AM</td>
+        <td>
+          Failed to extract the text for the element - analyticsTotalMinutesUsedText
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_28_52_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_28_52_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:28:52 AM</td>
+        <td>
+           is : 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:28:52 AM</td>
+        <td>
+          seleLast30DaysPrintdataAnalyticsUsage -  Test Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">seleLast12MonthsPrintdataAnalyticsUsage</p>
+            <p class="text-sm">
+              <span>8:28:52 AM</span> / <span>00:03:48:785</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">seleLast12MonthsPrintdataAnalyticsUsage</h5>
+<span class='badge badge-success'>03.03.2023 8:28:52 AM</span>
+<span class='badge badge-danger'>03.03.2023 8:32:41 AM</span>
+<span class='badge badge-default'>00:03:48:785</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:29:01 AM</td>
+        <td>
+          Clicked on the element - analyticsMenu
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:29:10 AM</td>
+        <td>
+          Clicked on the element - analyticsTab
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:29:31 AM</td>
+        <td>
+          analyticsLast12MonthsElement is not present 
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_29_31_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_29_31_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:29:52 AM</td>
+        <td>
+          Failed to click on the element - analyticsLast12Months
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_29_52_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_29_52_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:30:13 AM</td>
+        <td>
+          analyticsTotalActiveUsersvalElement is not present 
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_30_13_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_30_13_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:30:34 AM</td>
+        <td>
+          Failed to extract the text for the element - analyticsTotalActiveUsersval
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_30_34_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_30_34_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:30:56 AM</td>
+        <td>
+          analyticsTotalMinutesUsedValElement is not present 
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_30_55_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_30_55_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:31:17 AM</td>
+        <td>
+          Failed to extract the text for the element - analyticsTotalMinutesUsedVal
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_31_17_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_31_17_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:31:38 AM</td>
+        <td>
+          analyticsTotalActiveUsersTextElement is not present 
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_31_38_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_31_38_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:31:59 AM</td>
+        <td>
+          Failed to extract the text for the element - analyticsTotalActiveUsersText
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_31_59_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_31_59_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:31:59 AM</td>
+        <td>
+           is : 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:32:20 AM</td>
+        <td>
+          analyticsTotalMinutesUsedTextElement is not present 
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_32_20_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_32_20_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:32:41 AM</td>
+        <td>
+          Failed to extract the text for the element - analyticsTotalMinutesUsedText
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_32_41_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_32_41_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:32:41 AM</td>
+        <td>
+           is : 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:32:41 AM</td>
+        <td>
+          seleLast12MonthsPrintdataAnalyticsUsage -  Test Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">seleCurrentBillingCyclePrintdataAnalyticsUsage</p>
+            <p class="text-sm">
+              <span>8:32:41 AM</span> / <span>00:03:48:879</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">seleCurrentBillingCyclePrintdataAnalyticsUsage</h5>
+<span class='badge badge-success'>03.03.2023 8:32:41 AM</span>
+<span class='badge badge-danger'>03.03.2023 8:36:30 AM</span>
+<span class='badge badge-default'>00:03:48:879</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:32:49 AM</td>
+        <td>
+          Clicked on the element - analyticsMenu
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:32:59 AM</td>
+        <td>
+          Clicked on the element - analyticsTab
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:33:20 AM</td>
+        <td>
+          analyticsCurrentBillingCycleElement is not present 
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_33_20_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_33_20_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:33:41 AM</td>
+        <td>
+          Failed to click on the element - analyticsCurrentBillingCycle
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_33_41_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_33_41_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:34:02 AM</td>
+        <td>
+          analyticsTotalActiveUsersvalElement is not present 
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_34_02_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_34_02_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:34:23 AM</td>
+        <td>
+          Failed to extract the text for the element - analyticsTotalActiveUsersval
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_34_23_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_34_23_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:34:44 AM</td>
+        <td>
+          analyticsTotalMinutesUsedValElement is not present 
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_34_44_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_34_44_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:35:06 AM</td>
+        <td>
+          Failed to extract the text for the element - analyticsTotalMinutesUsedVal
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_35_05_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_35_05_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:35:27 AM</td>
+        <td>
+          analyticsTotalActiveUsersTextElement is not present 
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_35_27_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_35_27_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:35:48 AM</td>
+        <td>
+          Failed to extract the text for the element - analyticsTotalActiveUsersText
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_35_48_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_35_48_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:35:48 AM</td>
+        <td>
+           is : 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:36:09 AM</td>
+        <td>
+          analyticsTotalMinutesUsedTextElement is not present 
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_36_09_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_36_09_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:36:30 AM</td>
+        <td>
+          Failed to extract the text for the element - analyticsTotalMinutesUsedText
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_36_30_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_36_30_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:36:30 AM</td>
+        <td>
+           is : 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:36:30 AM</td>
+        <td>
+          seleCurrentBillingCyclePrintdataAnalyticsUsage -  Test Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="6"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">seleCustomDatePrintdataAnalyticsUsage</p>
+            <p class="text-sm">
+              <span>8:36:30 AM</span> / <span>00:02:24:457</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">seleCustomDatePrintdataAnalyticsUsage</h5>
+<span class='badge badge-success'>03.03.2023 8:36:30 AM</span>
+<span class='badge badge-danger'>03.03.2023 8:38:55 AM</span>
+<span class='badge badge-default'>00:02:24:457</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:36:38 AM</td>
+        <td>
+          Clicked on the element - analyticsMenu
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:36:48 AM</td>
+        <td>
+          Clicked on the element - analyticsTab
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:37:09 AM</td>
+        <td>
+          analyticsCustomDateElement is not present 
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_37_09_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_37_09_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:37:30 AM</td>
+        <td>
+          Failed to click on the element - analyticsCustomDate
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_37_30_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_37_30_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:37:51 AM</td>
+        <td>
+          fromDateCalenderButtElement is not present 
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_37_51_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_37_51_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:38:12 AM</td>
+        <td>
+          Failed to click on the element - fromDateCalenderButt
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_38_12_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_38_12_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:38:33 AM</td>
+        <td>
+          monthAndYerValFromElement is not present 
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_38_33_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_38_33_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:38:54 AM</td>
+        <td>
+          Failed to extract the text for the element - monthAndYerValFrom
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_38_54_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_38_54_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:38:55 AM</td>
+        <td>
+          This test got failed due to exceptionUnparseable date: ""
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_38_54_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_38_54_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:38:55 AM</td>
+        <td>
+          seleCustomDatePrintdataAnalyticsUsage -  Test Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="7"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">selFromDateAndIgnoreToDateAnalyticsUsage</p>
+            <p class="text-sm">
+              <span>8:38:55 AM</span> / <span>00:03:07:037</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">selFromDateAndIgnoreToDateAnalyticsUsage</h5>
+<span class='badge badge-success'>03.03.2023 8:38:55 AM</span>
+<span class='badge badge-danger'>03.03.2023 8:42:02 AM</span>
+<span class='badge badge-default'>00:03:07:037</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:39:16 AM</td>
+        <td>
+          clearButtonElement is not present 
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_39_16_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_39_16_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:39:37 AM</td>
+        <td>
+          Failed to click on the element - clearButton
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_39_37_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_39_37_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:39:45 AM</td>
+        <td>
+          Clicked on the element - analyticsMenu
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:39:55 AM</td>
+        <td>
+          Clicked on the element - analyticsTab
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:40:16 AM</td>
+        <td>
+          analyticsCustomDateElement is not present 
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_40_16_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_40_16_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:40:37 AM</td>
+        <td>
+          Failed to click on the element - analyticsCustomDate
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_40_37_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_40_37_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:40:58 AM</td>
+        <td>
+          fromDateCalenderButtElement is not present 
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_40_58_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_40_58_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:41:19 AM</td>
+        <td>
+          Failed to click on the element - fromDateCalenderButt
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_41_19_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_41_19_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:41:40 AM</td>
+        <td>
+          monthAndYerValFromElement is not present 
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_41_40_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_41_40_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:42:01 AM</td>
+        <td>
+          Failed to extract the text for the element - monthAndYerValFrom
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_42_01_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_42_01_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:42:02 AM</td>
+        <td>
+          This test got failed due to exceptionUnparseable date: ""
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_42_01_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_42_01_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:42:02 AM</td>
+        <td>
+          selFromDateAndIgnoreToDateAnalyticsUsage -  Test Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="8"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">selToDateAndIgnoreFromDateAnalyticsUsage</p>
+            <p class="text-sm">
+              <span>8:42:02 AM</span> / <span>00:03:06:535</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">selToDateAndIgnoreFromDateAnalyticsUsage</h5>
+<span class='badge badge-success'>03.03.2023 8:42:02 AM</span>
+<span class='badge badge-danger'>03.03.2023 8:45:08 AM</span>
+<span class='badge badge-default'>00:03:06:535</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:42:23 AM</td>
+        <td>
+          clearButtonElement is not present 
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_42_23_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_42_23_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:42:44 AM</td>
+        <td>
+          Failed to click on the element - clearButton
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_42_44_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_42_44_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:42:52 AM</td>
+        <td>
+          Clicked on the element - analyticsMenu
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:43:01 AM</td>
+        <td>
+          Clicked on the element - analyticsTab
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:43:22 AM</td>
+        <td>
+          analyticsCustomDateElement is not present 
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_43_22_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_43_22_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:43:43 AM</td>
+        <td>
+          Failed to click on the element - analyticsCustomDate
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_43_43_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_43_43_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:44:05 AM</td>
+        <td>
+          toDateCalenderButtElement is not present 
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_44_04_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_44_04_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:44:26 AM</td>
+        <td>
+          Failed to click on the element - toDateCalenderButt
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_44_26_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_44_26_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:44:47 AM</td>
+        <td>
+          monthAndYerValToElement is not present 
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_44_47_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_44_47_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:45:08 AM</td>
+        <td>
+          Failed to extract the text for the element - monthAndYerValTo
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_45_08_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_45_08_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:45:08 AM</td>
+        <td>
+          This test got failed due to exceptionUnparseable date: ""
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_45_08_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_45_08_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:45:08 AM</td>
+        <td>
+          selToDateAndIgnoreFromDateAnalyticsUsage -  Test Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="9"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">selFromDteGrtrThanToDteAnalyticsUsage</p>
+            <p class="text-sm">
+              <span>8:45:08 AM</span> / <span>00:03:06:419</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">selFromDteGrtrThanToDteAnalyticsUsage</h5>
+<span class='badge badge-success'>03.03.2023 8:45:08 AM</span>
+<span class='badge badge-danger'>03.03.2023 8:48:15 AM</span>
+<span class='badge badge-default'>00:03:06:419</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:45:29 AM</td>
+        <td>
+          clearButtonElement is not present 
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_45_29_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_45_29_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:45:50 AM</td>
+        <td>
+          Failed to click on the element - clearButton
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_45_50_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_45_50_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:45:59 AM</td>
+        <td>
+          Clicked on the element - analyticsMenu
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:46:08 AM</td>
+        <td>
+          Clicked on the element - analyticsTab
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:46:29 AM</td>
+        <td>
+          analyticsCustomDateElement is not present 
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_46_29_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_46_29_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:46:50 AM</td>
+        <td>
+          Failed to click on the element - analyticsCustomDate
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_46_50_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_46_50_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:47:11 AM</td>
+        <td>
+          fromDateCalenderButtElement is not present 
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_47_11_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_47_11_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:47:32 AM</td>
+        <td>
+          Failed to click on the element - fromDateCalenderButt
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_47_32_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_47_32_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:47:53 AM</td>
+        <td>
+          monthAndYerValFromElement is not present 
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_47_53_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_47_53_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:48:14 AM</td>
+        <td>
+          Failed to extract the text for the element - monthAndYerValFrom
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_48_14_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_48_14_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:48:15 AM</td>
+        <td>
+          This test got failed due to exceptionUnparseable date: ""
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_48_14_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_48_14_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:48:15 AM</td>
+        <td>
+          selFromDteGrtrThanToDteAnalyticsUsage -  Test Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="10"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">selFromDtNToDTEmptyNSrchAnalyticsUsage</p>
+            <p class="text-sm">
+              <span>8:48:15 AM</span> / <span>00:02:24:268</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">selFromDtNToDTEmptyNSrchAnalyticsUsage</h5>
+<span class='badge badge-success'>03.03.2023 8:48:15 AM</span>
+<span class='badge badge-danger'>03.03.2023 8:50:39 AM</span>
+<span class='badge badge-default'>00:02:24:268</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:48:36 AM</td>
+        <td>
+          clearButtonElement is not present 
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_48_36_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_48_36_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:48:57 AM</td>
+        <td>
+          Failed to click on the element - clearButton
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_48_57_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_48_57_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:49:05 AM</td>
+        <td>
+          Clicked on the element - analyticsMenu
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:49:14 AM</td>
+        <td>
+          Clicked on the element - analyticsTab
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:49:35 AM</td>
+        <td>
+          analyticsCustomDateElement is not present 
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_49_35_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_49_35_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:49:56 AM</td>
+        <td>
+          Failed to click on the element - analyticsCustomDate
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_49_56_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_49_56_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:50:18 AM</td>
+        <td>
+          custDateSearchBtnElement is not present 
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_50_17_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_50_17_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:50:39 AM</td>
+        <td>
+          This test got failed due to exceptionno such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='btn btn-primary search']"}
+  (Session info: chrome=110.0.5481.178)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'LAPTOP-FULFC865', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b602b97f47fc59463c2272aa6a6568bd, findElement {using=xpath, value=//button[@class='btn btn-primary search']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\SRINIV~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52023}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52023/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b602b97f47fc59463c2272aa6a6568bd
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_50_39_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_08_50_39_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:50:39 AM</td>
+        <td>
+          selFromDtNToDTEmptyNSrchAnalyticsUsage -  Test Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Mar 3, 2023 08:18:34 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Mar 3, 2023 08:50:40 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>0</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>10</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'>
+<b>0</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='100%'><b>10</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='8%'><b>11</b> events passed</small></div>
+<div>
+<small data-tooltip='68%'><b>85</b> events failed,
+<b data-tooltip='%'>29</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"loginValidation":161.09,"seleLast7DaysPrintdataAnalyticsUsage":228.702,"seleLast30DaysPrintdataAnalyticsUsage":228.762,"seleLast12MonthsPrintdataAnalyticsUsage":228.785,"seleCurrentBillingCyclePrintdataAnalyticsUsage":228.879,"seleCustomDatePrintdataAnalyticsUsage":144.457,"selFromDateAndIgnoreToDateAnalyticsUsage":187.037,"selToDateAndIgnoreFromDateAnalyticsUsage":186.535,"selFromDteGrtrThanToDteAnalyticsUsage":186.419,"selFromDtNToDTEmptyNSrchAnalyticsUsage":144.268
+};
+</script>
+<div class="row">
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 0,
+failParent: 10,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 11,
+failEvents: 85,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 29
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

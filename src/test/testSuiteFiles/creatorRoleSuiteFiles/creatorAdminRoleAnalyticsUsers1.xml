@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="PortFolio Management">
+    
+  <listeners>
+	<listener class-name="listener.MyTestNGListener"></listener>
+  </listeners>
+  <test name="Session Activity">
+    <classes>
+      <class name="testCases.creatorRoleTestCases.creatorRoleTestCase2767">
+       <methods>
+           <include name="seleLast7DaysPrintdataAnalyticsUsersPg"/>
+           <include name="seleLast7DaysSortHostAnalyticsUsersPg"/>
+           <include name="seleLast7DaysSortTNoOfCallsAnalyticsUsersPg"/>
+           <include name="seleLast7DaysSortTNoOfMinsAnalyticsUsersPg"/>
+           <include name="seleLast7DaysSortTNoOfSurveysAnalyticsUsersPg"/>
+           <include name="verifyLastSevendaysAnalyticsUsersSearchBox"/>
+           <include name="seleLast30DaysPrintdataAnalyticsUsersPg"/>
+           <include name="seleLast30DaysSortHostAnalyticsUsersPg"/>
+           <include name="seleLast30DaysSortTNoOfCallsAnalyticsUsersPg"/>
+           <include name="seleLast30DaysSortTNoOfMinsAnalyticsUsersPg"/>
+           <include name="seleLast30DaysSortTNoOfSurveysAnalyticsUsersPg"/>
+           <include name="verifyLast30daysAnalyticsUsersSearchBox"/>
+       </methods>
+      </class>
+    </classes>
+  </test>
+  <!--  <test name="Session Map">
+        <classes>
+            <class name="testCases.userRoleSessionMap">
+                <methods>
+                    <include name="sessionMap_Today" />
+                    <include name="sessionMap_ThisWeek"/>
+                </methods>
+            </class>
+        </classes>
+    </test>-->
+</suite> <!-- Suite -->

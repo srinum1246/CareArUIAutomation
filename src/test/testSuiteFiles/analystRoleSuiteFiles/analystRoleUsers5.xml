@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="PortFolio Management">
+    
+  <listeners>
+	<listener class-name="listener.MyTestNGListener"></listener>
+  </listeners>
+  <test name="Session Activity">
+    <classes>
+      <class name="testCases.analystRoleCases.analystRolePages">
+       <methods>
+           <include name="verifyNonEditableFiledsInUsersEditPage"/>
+           <include name="verifyUserEditPageFirstnameInputAsNumber"/>
+           <include name="verifyUserEditPageFirstnameInputAsEmpty"/>
+           <include name="verifyUserEditPageLastnameInputAsNumber"/>
+           <include name="verifyUserEditPageLastnameInputAsEmpty"/>
+           <include name="verifyUserEditPagePrimaryPhNumberInputAsminDigts"/>
+           <include name="verifyUserEditPagePrimaryPhNumberInputAsString"/>
+           <include name="verifyUserEditPagePrimaryPhNumberInputAsMaxDigits"/>
+           <include name="verifyUserEditPagePrimaryPhNumberInputAs0with9"/>
+           <include name="verifyUserEditPagePrimaryPhNumberInputAs1with9"/>
+           <include name="verifyUserEditPageSecondaryPhNumberInputAsminDigts"/>
+           <include name="verifyUserEditPageSecondaryPhNumberInputAsString"/>
+           <include name="verifyUserEditPageSecondaryPhNumberInputAsMaxDigits"/>
+           <include name="verifyUserEditPageSecondaryPhNumberInputAs0with9"/>
+           <include name="verifyUserEditPageSecondaryPhNumberInputAs1with9"/>
+           <include name="verifyUpdateUser"/>
+       </methods>
+      </class>
+    </classes>
+  </test>
+  <!--  <test name="Session Map">
+        <classes>
+            <class name="testCases.userRoleSessionMap">
+                <methods>
+                    <include name="sessionMap_Today" />
+                    <include name="sessionMap_ThisWeek"/>
+                </methods>
+            </class>
+        </classes>
+    </test>-->
+</suite> <!-- Suite -->

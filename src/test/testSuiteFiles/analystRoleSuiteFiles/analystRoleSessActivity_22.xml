@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="sessionActivitySuite">
+    
+  <listeners>
+	<listener class-name="listener.MyTestNGListener"></listener>
+  </listeners>
+  <test name="Session Activity">
+    <classes>
+      <class name="testCases.analystRoleCases.analystRoleSessionActivity">
+       <methods>
+           <include name="verifyThisWeekSessActRefIDSorting"/>
+           <include name="verifyThisWeekSessActINameSorting"/>
+           <include name="verifyThisWeekSessActTypeSorting"/>
+           <include name="verifyThisWeekSessActGroupSorting"/>
+           <include name="verifyThisWeekSessActStartTimeSorting"/>
+           <include name="verifyThisWeekSessActDurationSorting"/>
+           <include name="verifyTodaySessActHostNameSorting"/>
+           <include name="verifyTodaySessActGuestsSorting"/>
+           <include name="verifyTodaySessActRefIDSorting"/>
+           <include name="verifyTodaySessActINameSorting"/>
+           <include name="verifyTodaySessActTypeSorting"/>
+           
+
+       </methods>
+      </class>
+    </classes>
+  </test>
+  <!--  <test name="Session Map">
+        <classes>
+            <class name="testCases.userRoleSessionMap">
+                <methods>
+                    <include name="sessionMap_Today" />
+                    <include name="sessionMap_ThisWeek"/>
+                </methods>
+            </class>
+        </classes>
+    </test>-->
+</suite> <!-- Suite -->

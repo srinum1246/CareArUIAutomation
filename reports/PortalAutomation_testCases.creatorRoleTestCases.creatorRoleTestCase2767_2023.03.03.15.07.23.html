@@ -1,0 +1,943 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Mar 3, 2023 03:07:23 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">loginValidation</p>
+            <p class="text-sm">
+              <span>3:07:23 PM</span> / <span>00:04:05:255</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">loginValidation</h5>
+<span class='badge badge-success'>03.03.2023 3:07:23 PM</span>
+<span class='badge badge-danger'>03.03.2023 3:11:29 PM</span>
+<span class='badge badge-default'>00:04:05:255</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:07:34 PM</td>
+        <td>
+          Navigated to the url - https://carear-hyperspace.web.app/#/admin/login
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:07:38 PM</td>
+        <td>
+          Entered the text 'Venkata.Jonnalagadda+1@carear.com' in loginuserid textbox
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:07:46 PM</td>
+        <td>
+          Clicked on the element - loginnext
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:08:15 PM</td>
+        <td>
+          Clicked on the element - loginnext
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:08:37 PM</td>
+        <td>
+          Application did NOT get logged in.
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_15_08_36_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_15_08_36_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:08:39 PM</td>
+        <td>
+          Selecting the "English" locale.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:09:00 PM</td>
+        <td>
+          localeDropDownElement is not present 
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_15_09_00_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_15_09_00_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:09:21 PM</td>
+        <td>
+          Failed to click on the element - localeDropDown
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_15_09_21_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_15_09_21_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:09:42 PM</td>
+        <td>
+          localeElement is not present 
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_15_09_42_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_15_09_42_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:10:03 PM</td>
+        <td>
+          Failed to click on the element - locale
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_15_10_03_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_15_10_03_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:10:25 PM</td>
+        <td>
+          saveLocaleElement is not present 
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_15_10_24_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_15_10_24_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:10:46 PM</td>
+        <td>
+          Failed to click on the element - saveLocale
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_15_10_46_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_15_10_46_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:11:07 PM</td>
+        <td>
+          localeDropDownElement is not present 
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_15_11_07_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_15_11_07_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:11:29 PM</td>
+        <td>
+          Failed to extract the text for the element - localeDropDown
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_15_11_28_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_15_11_28_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:11:29 PM</td>
+        <td>
+          Locale "English" did NOT get selected successfully.
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_15_11_29_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_15_11_29_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">verifySurveysSearchBox</p>
+            <p class="text-sm">
+              <span>3:11:29 PM</span> / <span>00:03:53:991</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">verifySurveysSearchBox</h5>
+<span class='badge badge-success'>03.03.2023 3:11:29 PM</span>
+<span class='badge badge-danger'>03.03.2023 3:15:23 PM</span>
+<span class='badge badge-default'>00:03:53:991</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:12:11 PM</td>
+        <td>
+          contentTabElement is not present 
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_15_12_11_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_15_12_11_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:12:33 PM</td>
+        <td>
+          Failed to click on the element - contentTab
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_15_12_32_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_15_12_32_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:12:54 PM</td>
+        <td>
+          surveyBuilderTabElement is not present 
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_15_12_54_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_15_12_54_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:13:15 PM</td>
+        <td>
+          Failed to click on the element - surveyBuilderTab
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_15_13_15_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_15_13_15_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:13:36 PM</td>
+        <td>
+          surveysTextElement is not present 
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_15_13_36_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_15_13_36_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:13:58 PM</td>
+        <td>
+          Failed to extract the text for the element - surveysText
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_15_13_58_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_15_13_58_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:13:58 PM</td>
+        <td>
+          Expected value for "experienceExpeVal" is :"Surveys" which is NOT same as as that of the actual value i.e, ""
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_15_13_58_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_15_13_58_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:14:19 PM</td>
+        <td>
+          surveysSearchBoxElement is not present 
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_15_14_19_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_15_14_19_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:14:40 PM</td>
+        <td>
+          Failed to enter the text '*******' in surveysSearchBox textbox
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_15_14_40_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_15_14_40_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:15:02 PM</td>
+        <td>
+          totalRowCntTxtElement is not present 
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_15_15_01_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_15_15_01_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:15:23 PM</td>
+        <td>
+          Failed to extract the text for the element - totalRowCntTxt
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_15_15_23_IST_2023.png' src="D:\PortalAutomation-29-12-2022\CareARAutomation\PortalAutomation_v1.0\PortalAutomationScenarios\screenShots//Fri_Mar_03_15_15_23_IST_2023.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:15:23 PM</td>
+        <td>
+          Index 1 out of bounds for length 1
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyHostAndGuestValueFromHostDropdown</p>
+            <p class="text-sm">
+              <span>3:15:23 PM</span> / <span>00:02:22:201</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyHostAndGuestValueFromHostDropdown</h5>
+<span class='badge badge-success'>03.03.2023 3:15:23 PM</span>
+<span class='badge badge-danger'>03.03.2023 3:17:45 PM</span>
+<span class='badge badge-default'>00:02:22:201</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:15:48 PM</td>
+        <td>
+          Clicked on the element - surveyBuilderTab
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:15:52 PM</td>
+        <td>
+          Expected value for "experienceExpeVal" is :"Surveys" which is same as that of the actual value i.e, "Surveys"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:16:03 PM</td>
+        <td>
+          Clicked on the element - hostDropDown
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:16:11 PM</td>
+        <td>
+          Clicked on the element - hostDropDownItem
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:16:26 PM</td>
+        <td>
+          Clicked on the element - navRightArrowButton
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:16:40 PM</td>
+        <td>
+          Clicked on the element - navRightArrowButton
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:16:54 PM</td>
+        <td>
+          Clicked on the element - navRightArrowButton
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:17:08 PM</td>
+        <td>
+          Clicked on the element - navRightArrowButton
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:17:21 PM</td>
+        <td>
+          Clicked on the element - navRightArrowButton
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:17:36 PM</td>
+        <td>
+          Clicked on the element - navRightArrowButton
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:17:45 PM</td>
+        <td>
+          After selecting the value - Host/Guest in Host Dropdown, then, the Host/Guest related records got populated in table.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:17:45 PM</td>
+        <td>
+          verifyHostAndGuestValueFromHostDropdown -  Test Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyHostValueFromHostDropdown</p>
+            <p class="text-sm">
+              <span>3:17:45 PM</span> / <span>00:00:47:454</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">verifyHostValueFromHostDropdown</h5>
+<span class='badge badge-success'>03.03.2023 3:17:45 PM</span>
+<span class='badge badge-danger'>03.03.2023 3:18:33 PM</span>
+<span class='badge badge-default'>00:00:47:454</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:17:56 PM</td>
+        <td>
+          Clicked on the element - surveyBuilderTab
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:17:59 PM</td>
+        <td>
+          Expected value for "experienceExpeVal" is :"Surveys" which is same as that of the actual value i.e, "Surveys"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:18:10 PM</td>
+        <td>
+          Clicked on the element - hostDropDown
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:18:19 PM</td>
+        <td>
+          Clicked on the element - hostDropDownItem
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:18:33 PM</td>
+        <td>
+          stale element reference: element is not attached to the page document
+  (Session info: chrome=110.0.5481.178)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'LAPTOP-FULFC865', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c715fd60909b4fd0148609c1faccdb96, getElementText {id=a40aa900-c0e8-4893-9601-e6dad1839d12}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\SRINIV~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56246}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56246/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (c715fd60909b4fd0148609c1faccdb96)] -> xpath: //span[@id='tableHeader']//tbody//td[3]]
+Session ID: c715fd60909b4fd0148609c1faccdb96
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyGuestValueFromHostDropdown</p>
+            <p class="text-sm">
+              <span>3:18:33 PM</span> / <span>00:01:06:617</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyGuestValueFromHostDropdown</h5>
+<span class='badge badge-success'>03.03.2023 3:18:33 PM</span>
+<span class='badge badge-danger'>03.03.2023 3:19:40 PM</span>
+<span class='badge badge-default'>00:01:06:617</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:18:47 PM</td>
+        <td>
+          Clicked on the element - surveyBuilderTab
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:18:50 PM</td>
+        <td>
+          Expected value for "experienceExpeVal" is :"Surveys" which is same as that of the actual value i.e, "Surveys"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:08 PM</td>
+        <td>
+          Clicked on the element - hostDropDown
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:16 PM</td>
+        <td>
+          Clicked on the element - hostDropDownItem
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:31 PM</td>
+        <td>
+          Clicked on the element - navRightArrowButton
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:19:40 PM</td>
+        <td>
+          After selecting the value - Guest in Host Dropdown, then, the Guest related records got populated in table.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:19:40 PM</td>
+        <td>
+          verifyGuestValueFromHostDropdown -  Test Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="6"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyAdmonistarationpage</p>
+            <p class="text-sm">
+              <span>3:19:40 PM</span> / <span>00:00:58:033</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyAdmonistarationpage</h5>
+<span class='badge badge-success'>03.03.2023 3:19:40 PM</span>
+<span class='badge badge-danger'>03.03.2023 3:20:38 PM</span>
+<span class='badge badge-default'>00:00:58:033</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:19:51 PM</td>
+        <td>
+          Clicked on the element - experiencesTab
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:20:17 PM</td>
+        <td>
+          Expected value for "experienceExpeVal" is :"Experience Builder" which is same as that of the actual value i.e, "Experience Builder"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:20:38 PM</td>
+        <td>
+          Administratation tab is not displayed.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:20:38 PM</td>
+        <td>
+          verifyAdmonistarationpage -  Test Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="7"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyConnectorsPage</p>
+            <p class="text-sm">
+              <span>3:20:38 PM</span> / <span>00:00:57:969</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyConnectorsPage</h5>
+<span class='badge badge-success'>03.03.2023 3:20:38 PM</span>
+<span class='badge badge-danger'>03.03.2023 3:21:36 PM</span>
+<span class='badge badge-default'>00:00:57:969</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:20:49 PM</td>
+        <td>
+          Clicked on the element - experiencesTab
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:21:15 PM</td>
+        <td>
+          Expected value for "experienceExpeVal" is :"Experience Builder" which is same as that of the actual value i.e, "Experience Builder"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:21:36 PM</td>
+        <td>
+          Connectors tab is not displayed.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:21:36 PM</td>
+        <td>
+          verifyConnectorsPage -  Test Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Mar 3, 2023 03:07:23 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Mar 3, 2023 03:21:37 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>4</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>3</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='57%'>
+<b>4</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='42%'><b>3</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='23%'><b>14</b> events passed</small></div>
+<div>
+<small data-tooltip='38%'><b>23</b> events failed,
+<b data-tooltip='%'>22</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"loginValidation":245.255,"verifySurveysSearchBox":233.991,"verifyHostAndGuestValueFromHostDropdown":142.201,"verifyHostValueFromHostDropdown":47.454,"verifyGuestValueFromHostDropdown":66.617,"verifyAdmonistarationpage":58.033,"verifyConnectorsPage":57.969
+};
+</script>
+<div class="row">
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 4,
+failParent: 3,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 14,
+failEvents: 23,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 22
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

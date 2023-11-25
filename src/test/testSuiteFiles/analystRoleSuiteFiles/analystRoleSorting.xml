@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="PortFolio Management">
+    
+  <listeners>
+	<listener class-name="listener.MyTestNGListener"></listener>
+  </listeners>
+  <test name="Session Activity">
+    <classes>
+      <class name="testCases.analystRoleCases.analystRolePages">
+       <methods>
+		   <exclude name="verifySurveysPage"/>
+		   <include name="verifySurveysTableSurveyIDSorting"/>
+		   <include name="verifySurveysTableIndexSorting"/>
+		   <include name="verifySurveysTableUserTypeSorting"/>
+		   <include name="verifySurveysTableSurveyQuestionsSorting"/>
+		   <include name="verifySurveysTableRequiredSorting"/>
+		   <include name="verifySurveysTableTypeSorting"/>
+		   <exclude name="verifySurveysSearchBox"/>
+		   <exclude name="verifySurveys25ItemsPerPage"/>
+		   <exclude name="verifySurveys50ItemsPerPage"/>
+		   <exclude name="verifySurveys100ItemsPerPage"/>
+		   <exclude name="verifyCrateSurveyQuestionWithCombination"/>
+		   <exclude name="verifyEditSurvey"/>
+		   <exclude name="verifyDisableSurvey"/>
+		   <exclude name="verifyEnableSurvey"/>
+		   <exclude name="verifyDeleteSurvey"/>
+		   <exclude name="seleLast7DaysSortTNoOfSurveysAnalyticsUsersPg"/>
+		   <exclude name="seleLast30DaysSortTNoOfSurveysAnalyticsUsersPg"/>
+		   <exclude name="seleLast12MonthsSortTNoOfSurveysAnalyticsUsersPg"/>
+		   <exclude name="seleCurrentBillingCycleSortTNoOfSurveysAnalyticsUsersPg"/>
+		   <exclude name="seleCustomDateSortTNoOfSurveysAnalyticsUsersPg"/>
+           
+
+       </methods>
+      </class>
+    </classes>
+  </test>
+  <!--  <test name="Session Map">
+        <classes>
+            <class name="testCases.userRoleSessionMap">
+                <methods>
+                    <exclude name="sessionMap_Today" />
+                    <exclude name="sessionMap_ThisWeek"/>
+                </methods>
+            </class>
+        </classes>
+    </test>-->
+</suite> <!-- Suite -->

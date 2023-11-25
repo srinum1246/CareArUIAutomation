@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="PortFolio Management">
+<listeners>
+    <listener class-name="testCases.adminRoleCases.adminRoleUsers"></listener>
+</listeners>
+    <test name=" Practice 1">
+
+<!--<groups>-->
+<!--    <run>-->
+<!--        <include name="windows.*"/>-->
+<!--    </run>-->
+<!--</groups>-->
+        <parameter name="firstName" value="Welcome"></parameter>
+        <classes>
+            <class name="Rough.TestNgPractice">
+<!--                <methods>-->
+<!--                    <include name="test1"/>-->
+<!--                    <include name="test2"/>-->
+<!--                    <include name="test3"/>-->
+<!--                </methods>-->
+            </class>
+
+        </classes>
+    </test>
+    <!--<test name=" Practice 2">
+        <classes>
+            <class name="Rough.TestNgPractice1">
+                <methods>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                    <include name="test3"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>-->
+</suite>

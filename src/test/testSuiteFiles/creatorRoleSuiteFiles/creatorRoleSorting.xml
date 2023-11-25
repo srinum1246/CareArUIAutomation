@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="PortFolio Management">
+    
+  <listeners>
+	<listener class-name="listener.MyTestNGListener"></listener>
+  </listeners>
+  <test name="Session Activity">
+    <classes>
+      <class name="testCases.creatorRoleTestCases.creatorRoleSessionActivity">
+       <methods>
+           <exclude name="sessionActivity_verifyCompanyLogo" />
+           <exclude name="verifySessActHostDataInGridForThisMonth"/>
+           <exclude name="verifySessAct25PerPageForThisMonth"/>
+           <exclude name="verifySessAct50PerPageForThisMonth"/>
+           <exclude name="verifySessAct100PerPageForThisMonth"/>
+           <exclude name="verifyThisMonthRangeInSessActivity"/>
+           <exclude name="verifyThisMonthRangeInSessActivity"/>
+           <exclude name="exportSessActThisMonth"/>
+           <exclude name="exportSessActSelectedRowsForThisMonth"/>
+           <exclude name="verifySessActHostDataInGridForToday"/>
+           <exclude name="verifySessAct25PerPageForToday"/>
+           <exclude name="verifySessAct50PerPageForToday"/>
+           <exclude name="verifySessAct100PerPageForToday"/>
+           <exclude name="exportSessActToday"/>
+           <exclude name="exportSessActSelectedRowsForToday"/>
+           <exclude name="verifyTodayRangeInSessActivity"/>
+           <exclude name="verifySessActHostDataInGridForThisWeek"/>
+           <exclude name="verifySessAct25PerPageForThisWeek"/>
+           <exclude name="verifySessAct50PerPageForThisWeek"/>
+           <exclude name="verifySessAct100PerPageForThisWeek"/>
+           <exclude name="exportSessActThisWeek"/>
+           <exclude name="exportSessActSelectedRowsForThisWeek"/>
+           <exclude name="verifyThisWeekRangeInSessActivity"/>
+           <exclude name="customDateSessActVerifyHostDataInGrid"/>
+           <exclude name="verifySessAct25PerPageForCustomDate"/>
+           <exclude name="verifySessAct50PerPageForCustomDate"/>
+           <exclude name="verifySessAct100PerPageForCustomDate"/>
+           <exclude name="exportSessActCustomDateData"/>
+           <exclude name="exportSelectedRowsSessActForCustomDate"/>
+           <exclude name="selFromDateAndIgnoreToDateSessActvty"/>
+           <exclude name="selToDateAndIgnoreFromDateSessActvty"/>
+           <exclude name="selFromDteGrtrThanToDteSessActvty"/>
+           <exclude name="selFromDtNToDTEmptyNSrch"/>
+           <exclude name="verifyDisplayOfSessionMapPageFromCustDate"/>
+           <exclude name="verifyThisMonthSessActHostNameSorting"/>
+           <exclude name="verifyThisMonthSessActGuestsSorting"/>
+           <exclude name="verifyThisMonthSessActRefIDSorting"/>
+           <exclude name="verifyThisMonthSessActINameSorting"/>
+           <exclude name="verifyThisMonthSessActTypeSorting"/>
+           <exclude name="verifyThisMonthSessActGroupSorting"/>
+           <exclude name="verifyThisMonthSessActStartTimeSorting"/>
+           <exclude name="verifyThisMonthSessActDurationSorting"/>
+           <exclude name="verifyThisWeekSessActHostNameSorting"/>
+           <exclude name="verifyThisWeekSessActGuestsSorting"/>
+           <exclude name="verifyThisWeekSessActRefIDSorting"/>
+           <exclude name="verifyThisWeekSessActINameSorting"/>
+           <exclude name="verifyThisWeekSessActTypeSorting"/>
+           <exclude name="verifyThisWeekSessActGroupSorting"/>
+           <exclude name="verifyThisWeekSessActStartTimeSorting"/>
+           <exclude name="verifyThisWeekSessActDurationSorting"/>
+           <exclude name="verifyTodaySessActHostNameSorting"/>
+           <exclude name="verifyTodaySessActGuestsSorting"/>
+           <exclude name="verifyTodaySessActRefIDSorting"/>
+           <exclude name="verifyTodaySessActINameSorting"/>
+           <exclude name="verifyTodaySessActTypeSorting"/>
+           <exclude name="verifyTodaySessActGroupSorting"/>
+           <exclude name="verifyTodaySessActStartTimeSorting"/>
+           <exclude name="verifyTodaySessActDurationSorting"/>
+           <exclude name="verifyCustomDateSessActHostNameSorting"/>
+           <exclude name="verifyCustomDateSessActGuestsSorting"/>
+           <exclude name="verifyCustomDateSessActRefIDSorting"/>
+           <exclude name="verifyCustomDateSessActINameSorting"/>
+           <exclude name="verifyCustomDateSessActTypeSorting"/>
+           <exclude name="verifyCustomDateSessActGroupSorting"/>
+           <exclude name="verifyCustomDateSessActStartTimeSorting"/>
+           <exclude name="verifyCustomDateSessActDurationSorting"/>
+
+
+
+       </methods>
+      </class>
+        <class name="testCases.creatorRoleTestCases.creatorRoleMyProfile">
+            <methods>
+                <exclude name="verifyMyprofilePageUploadJPGorPNGImage"/>
+                <exclude name="verifyMyprofilePageUploadBMPImage"/>
+                <exclude name="verifyMyprofilePageUploadZIPImage"/>
+                <exclude name="verifyMyprofilePageUploadXLFileAsImage"/>
+                <exclude name="verifyUSTextEditableORNot"/>
+                <exclude name="verifyEmailTextEditableORNot"/>
+                <exclude name="verifyNameTextEditableORNot"/>
+                <exclude name="verifyJobDescriptionTextEditableORNot"/>
+                <exclude name="VerifyPrimaryPhoneNumberCountryCode9digitNumber"/>
+                <exclude name="VerifyPrimaryPhoneNumber5Numbers"/>
+                <exclude name="VerifyPrimaryPhoneNumber10DigitsStartWithZero"/>
+                <exclude name="VerifyPrimaryPhoneNumber20Digits"/>
+                <exclude name="VerifyPrimaryPhoneNumber10DigitsStartsWithOne"/>
+                <exclude name="VerifyPrimaryPhoneNumberWithString"/>
+                <exclude name="VerifyPrimaryPhoneNumber10DigitsCountryCode0WithPlus"/>
+                <exclude name="VerifyPrimaryPhoneNumber10DigitsWithoutCountryCode"/>
+                <exclude name="VerifyPrimaryPhoneNumber18DigitsWithPlus"/>
+                <exclude name="VerifyPrimaryPhoneNumber10DigitsWithPlusCountryCode"/>
+                <exclude name="VerifySecondaryPhoneNumberCountryCode9digitNumber"/>
+                <exclude name="VerifySecondaryPhoneNumber5Numbers"/>
+                <exclude name="VerifySecondaryPhoneNumber10DigitsStartWithZero"/>
+                <exclude name="VerifySecondaryPhoneNumber20Digits"/>
+                <exclude name="VerifySecondaryPhoneNumber10DigitsStartsWithOne"/>
+                <exclude name="VerifySecondaryPhoneNumberWithString"/>
+                <exclude name="VerifySecondaryPhoneNumber10DigitsCountryCode0WithPlus"/>
+                <exclude name="VerifyPSecondaryPhoneNumber10DigitsWithoutCountryCode"/>
+                <exclude name="VerifySecondaryPhoneNumber18DigitsWithPlus"/>
+                <exclude name="VerifySecondaryPhoneNumber10DigitsWithPlusCountryCode"/>
+                <exclude name="verifyEditButtonDisbaledOrEnabled"/>
+                <exclude name="verifyCancelButton"/>
+                <exclude name="verifyProfileLinkOnEditProfilePg"/>
+            </methods>
+        </class>
+        <class name="testCases.creatorRoleTestCases.creatorRoleAnalytics">
+            <methods>
+                <exclude name="seleLast7DaysPrintdata"/>
+                <exclude name="seleLast30DaysPrintdata"/>
+                <exclude name="seleLast12MonthsPrintdata"/>
+                <exclude name="seleCurrentBillingCyclePrintdata"/>
+                <exclude name="seleCustomDatePrintdata"/>
+                <exclude name="selFromDateAndIgnoreToDateSessActvty"/>
+                <exclude name="selToDateAndIgnoreFromDateSessActvty"/>
+                <exclude name="selFromDteGrtrThanToDteSessActvty"/>
+                <exclude name="selFromDtNToDTEmptyNSrch"/>
+                <exclude name="verifySessMap25PerPageForToday"/>
+                <exclude name="verifySessMap50PerPageForToday"/>
+                <exclude name="verifySessMap100PerPageForToday"/>
+                <exclude name="verifyTodayRangeInSessMap"/>
+                <exclude name="verifySessMapHostDataInGridForThisWeek"/>
+                <exclude name="verifySessMap25PerPageForThisWeek"/>
+                <exclude name="verifySessMap50PerPageForThisWeek"/>
+                <exclude name="verifySessMap100PerPageForThisWeek"/>
+                <exclude name="verifyThisWeekRangeInSessMap"/>
+                <exclude name="customDateSessMapVerifyHostDataInGrid"/>
+                <exclude name="verifySessMap25PerPageForCustomDate"/>
+                <exclude name="verifySessMap50PerPageForCustomDate"/>
+                <exclude name="verifySessMap100PerPageForCustomDate"/>
+                <exclude name="selFromDateAndIgnoreToDateSessMap"/>
+                <exclude name="selToDateAndIgnoreFromDateSessMap"/>
+                <exclude name="selFromDteGrtrThanToDteSessMap"/>
+                <exclude name="selFromDtNToDTEmptyNSrch"/>
+                <exclude name="verifyThisWeekSessMapHostNameSorting"/>
+                <exclude name="verifyThisWeekSessMapGuestsSorting"/>
+                <exclude name="verifyThisWeekSessMapRefIDSorting"/>
+                <exclude name="verifyThisWeekSessMapINameSorting"/>
+                <exclude name="verifyThisWeekSessMapTypeSorting"/>
+                <exclude name="verifyThisWeekSessMapGroupSorting"/>
+                <exclude name="verifyThisWeekSessMapStartTimeSorting"/>
+                <exclude name="verifyThisWeekSessMapDurationSorting"/>
+                <exclude name="verifyThisMonthSessMapHostNameSorting"/>
+                <exclude name="verifyThisMonthSessMapGuestsSorting"/>
+                <exclude name="verifyThisMonthSessMapRefIDSorting"/>
+                <exclude name="verifyThisMonthSessMapINameSorting"/>
+                <exclude name="verifyThisMonthSessMapTypeSorting"/>
+                <exclude name="verifyThisMonthSessMapGroupSorting"/>
+                <exclude name="verifyThisMonthSessMapStartTimeSorting"/>
+                <exclude name="verifyThisMonthSessMapDurationSorting"/>
+                <exclude name="verifyTodaySessMapHostNameSorting"/>
+                <exclude name="verifyTodaySessMapGuestsSorting"/>
+                <exclude name="verifyTodaySessMapRefIDSorting"/>
+                <exclude name="verifyTodaySessMapINameSorting"/>
+                <exclude name="verifyTodaySessMapTypeSorting"/>
+                <exclude name="verifyTodaySessMapGroupSorting"/>
+                <exclude name="verifyTodaySessMapStartTimeSorting"/>
+                <exclude name="verifyTodaySessMapDurationSorting"/>
+                <exclude name="verifyCustomDateSessActHostNameSorting"/>
+                <exclude name="verifyCustomDateSessActGuestsSorting"/>
+                <exclude name="verifyCustomDateSessActRefIDSorting"/>
+                <exclude name="verifyCustomDateSessActINameSorting"/>
+                <exclude name="verifyCustomDateSessActTypeSorting"/>
+                <exclude name="verifyCustomDateSessActGroupSorting"/>
+                <exclude name="verifyCustomDateSessActStartTimeSorting"/>
+                <exclude name="verifyCustomDateSessActDurationSorting"/>
+
+            </methods>
+        </class>
+        <class name="testCases.creatorRoleTestCases.creatorRoleSessionMap">
+            <methods>
+                <exclude name="verifySessMapHostDataInGridForThisMonth"/>
+                <exclude name="verifySessMap25PerPageForThisMonth"/>
+                <exclude name="verifySessMap50PerPageForThisMonth"/>
+                <exclude name="verifySessMap100PerPageForThisMonth"/>
+                <exclude name="verifyThisMonthRangeInSessMap"/>
+                <exclude name="verifySessMapHostDataInGridForToday"/>
+                <exclude name="verifyTodaySessionMapDsplayOptions"/>
+                <exclude name="verifyThisWeekSessionMapDsplayOptions"/>
+                <exclude name="verifyThisMonthSessionMapDsplayOptions"/>
+                <exclude name="verifyCustDateSessionMapDsplayOptions"/>
+
+            </methods>
+        </class>
+    </classes>
+  </test>
+  <!--  <test name="Session Map">
+        <classes>
+            <class name="testCases.userRoleSessionMap">
+                <methods>
+                    <exclude name="sessionMap_Today" />
+                    <exclude name="sessionMap_ThisWeek"/>
+                </methods>
+            </class>
+        </classes>
+    </test>-->
+</suite> <!-- Suite -->

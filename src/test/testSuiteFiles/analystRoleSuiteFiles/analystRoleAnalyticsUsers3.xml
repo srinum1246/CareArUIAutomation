@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="PortFolio Management">
+    
+  <listeners>
+	<listener class-name="listener.MyTestNGListener"></listener>
+  </listeners>
+  <test name="Session Activity">
+    <classes>
+      <class name="testCases.analystRoleCases.analystRolePages">
+       <methods>
+           <include name="seleCustomDatePrintdataAnalyticsUsersPg"/>
+           <include name="seleCustomDateSortHostAnalyticsUsersPg"/>
+           <include name="seleCustomDateSortTNoOfCallsAnalyticsUsersPg"/>
+           <include name="seleCustomDateSortTNoOfMinsAnalyticsUsersPg"/>
+           <include name="seleCustomDateSortTNoOfSurveysAnalyticsUsersPg"/>
+           <include name="verifyCustomDateAnalyticsUsersSearchBox"/>
+           <include name="selFromDateAndIgnoreToDateAnalyticsUsersPg"/>
+           <include name="selToDateAndIgnoreFromDateAnalyticsUsersPg"/>
+           <include name="selFromDteGrtrThanToDteAnalyticsUsersPg"/>
+           <include name="selFromDtNToDTEmptyNSrchAnalyticsUsersPg"/>
+       </methods>
+      </class>
+    </classes>
+  </test>
+  <!--  <test name="Session Map">
+        <classes>
+            <class name="testCases.userRoleSessionMap">
+                <methods>
+                    <include name="sessionMap_Today" />
+                    <include name="sessionMap_ThisWeek"/>
+                </methods>
+            </class>
+        </classes>
+    </test>-->
+</suite> <!-- Suite -->
